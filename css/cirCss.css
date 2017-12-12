@@ -1,0 +1,215 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.areaLogo .nav-extended {
+  background: #ffffff;
+  padding-top: 1.5rem !important;
+}
+
+.areaLogo .nav-extended .brand-logo {
+  width: 10vw;
+  margin-top: -1.8rem;
+}
+
+.areaLogo .nav-extended .logo2 {
+  right: 65vw !important;
+}
+
+.areaLogo .nav-extended .logo2 img {
+  padding: 1.5rem;
+}
+
+.areaLogo .nav-extended .logo1 {
+  right: 85vw !important;
+}
+
+.areaLogo .nav-extended .logo1 img {
+  width: 11rem !important;
+}
+
+.areaLogo .nav-extended img {
+  width: 100% !important;
+}
+
+.areaLogo .nav-extended .areaInfo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: -2.5rem;
+  width: 50vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.areaLogo .nav-extended .areaInfo p {
+  display: flex;
+  color: #444444;
+  padding: 0 1rem;
+  font-size: .7rem;
+  font-weight: bolder;
+  height: 2rem;
+}
+
+.areaLogo .nav-extended .areaInfo p i {
+  padding: 0 .5rem;
+  font-size: 1.2rem;
+}
+
+.nav-wrapper ul {
+  margin-right: 2rem;
+}
+
+.nav-wrapper ul li {
+  padding-bottom: .5rem;
+  margin-right: .5rem;
+}
+
+.nav-wrapper ul li:hover {
+  background: #fff !important;
+}
+
+.nav-wrapper ul li a:hover {
+  text-decoration: none;
+  background: #fff !important;
+  color: #009688;
+}
+
+.nav-wrapper ul .active {
+  border-bottom: 3.5px solid #009688;
+  background: #fff !important;
+}
+
+.nav-wrapper ul .active a {
+  color: #009688 !important;
+}
+
+.nav-wrapper ul .btn-send {
+  background: #fff;
+  color: #009688 !important;
+  border: 2px solid #009688;
+  padding: 0 1rem;
+  border-radius: 3px;
+}
+
+.areaLogo .nav-extended a {
+  color: #333;
+  text-transform: uppercase;
+}
+
+.one-area {
+  margin-top: 3.5rem;
+}
+
+.one-area .slider {
+  margin-top: -2.1rem;
+}
+
+.one-area .slider h3, .one-area .slider h5 {
+  font-weight: 300;
+}
+
+.indicators {
+  margin-bottom: 3rem !important;
+  z-index: 10;
+}
+
+.two-area {
+  margin-top: -3rem;
+  display: flex;
+}
+
+.two-area .areaIframe {
+  height: 130vh;
+  padding: 0 !important;
+}
+
+.two-area .areaPublicit {
+  padding: 3rem 0;
+}
+
+.two-area .areaPublicit .banners {
+  padding: 1rem;
+}
+
+.two-area .areaPublicit .banners img {
+  margin: .5rem 0;
+  width: 100%;
+}
+
+.tree-area {
+  background-image: url("../images/Meus/bg.png");
+  background-attachment: fixed;
+  padding: 5rem;
+}
+
+.tree-area p {
+  font-size: 1.1rem;
+  color: #666;
+  display: block;
+  margin: 3rem 0;
+}
+
+.title {
+  margin-bottom: 3.5rem;
+}
+
+.title:after {
+  content: '';
+  position: absolute;
+  border-bottom: 3px solid #009688;
+  left: 15px;
+  width: 20%;
+  margin-top: 60px;
+}
+
+.for-area {
+  padding: 4rem 8rem;
+}
+
+.for-area li {
+  padding: .3rem 0;
+  padding-left: 2rem;
+}
+
+.for-area li i {
+  margin-left: 15px;
+  position: absolute;
+  left: 0;
+  color: #009688;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer .text-footer {
+  font-size: 1.3rem !important;
+}
+
+footer li {
+  font-size: .8rem;
+  padding: .3rem;
+}
+
+footer .areaSociais {
+  margin-top: 2rem;
+  display: flex;
+}
+
+footer .areaSociais .btFacebook {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 5rem;
+  background: #01579b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .2rem;
+}
+
+footer .areaSociais .btFacebook i {
+  color: #fff;
+}
